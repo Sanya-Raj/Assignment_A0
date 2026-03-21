@@ -61,6 +61,26 @@ print("ID of y in div operation in float is changed \n")
 
 # Float are immutable data type when we perfoem the operation on it.
 
+# List data type
+
+x = [1,2,3]
+print("ID before : " , id(x))
+x.append(4)
+print("ID after  : ",  id(x)) 
+print("Memory ID of x is not changed in List ")
+
+
+x = [1,2,3]
+print("\nID before : ", id(x))
+x[0] = 100
+print("ID after  : " , id(x))
+print("Memory ID of x is not changed in List ")
+
+#List are mutable data type when we perform the operation on it.
+
+
+
+
 
 
 
