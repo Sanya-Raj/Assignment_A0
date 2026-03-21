@@ -78,6 +78,47 @@ print("Memory ID of x is not changed in List ")
 
 #List are mutable data type when we perform the operation on it.
 
+#string
+
+s = 'Hello'
+print("\nID before : " ,id(s))
+#concatenation occure 
+s = s + ' World'
+print("ID after  :", id(s))
+
+s = s.upper()
+print("\nID after upper : ", id(s))
+
+s = s.lower()
+print("\nID after lower : ", id(s))
+
+s = s.replace("world", "Sanya")
+print("\nID after replace : ", id(x))
+
+s = "Hello World " 
+s = s.strip()
+print("\nID after strip : " ,id(s))
+
+# String are immutable data type when we perform the operation on it.
+
+#Dictionary data type
+
+d = {"Name " : "Sanya", "age " : "20"}
+print(d)
+print("ID before : ", id(d))
+old_id = id(d)
+d["city"] = 'Ujjain '
+print(d)
+print("ID after : ", id(d))
+print("The address of the dictionary not change ")
+
+# Dictioary are muable data type when we perform the opeartion on it.
+
+ 
+
+
+
+
 
 
 
